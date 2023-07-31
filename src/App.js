@@ -80,9 +80,9 @@ const App = () => {
           grandTotal={grandTotal}
         ></MyCart>
         <Routes>
-          <Route path="/" element={<ItemCarousel />} />
+          <Route path="/11.Shopping-cart" element={<ItemCarousel />} />
           <Route
-            path="/products"
+            path="/11.Shopping-cart/products"
             element={<Products addToCart={addToCart} />}
           />
         </Routes>

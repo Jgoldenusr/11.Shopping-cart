@@ -34,10 +34,10 @@ function Header({ setShow }) {
         </Navbar.Brand>
       </Container>
       <Container className="float-end w-auto fs-3 fw-bold">
-        <Link to="/" className="noDeco">
+        <Link to="/11.Shopping-cart" className="noDeco">
           <Navbar.Brand className="hoverAnim">Inicio</Navbar.Brand>
         </Link>
-        <Link to="/products" className="noDeco">
+        <Link to="/11.Shopping-cart/products" className="noDeco">
           <Navbar.Brand className="hoverAnim">Productos</Navbar.Brand>
         </Link>
         <Navbar.Brand
@@ -152,7 +152,7 @@ function ItemCarousel() {
                     <Col key={item.id} xs={width > 600 ? 4 : 12}>
                       <Card className="mx-1 h-100">
                         <Link
-                          to="/products"
+                          to="/11.Shopping-cart/products"
                           state={{ item: `${item.id}` }}
                           className="noDeco"
                         >
