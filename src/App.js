@@ -2,7 +2,7 @@ import "./custom-styles/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Stack from "react-bootstrap/Stack";
 import { React, useState } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   Header,
   MyCart,
@@ -68,7 +68,7 @@ const App = () => {
   };
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Stack direction="vertical" className="Lato gradient min-vh-100">
         <Header setShow={setShow}></Header>
         <MyCart
@@ -88,7 +88,7 @@ const App = () => {
         </Routes>
         <Footer></Footer>
       </Stack>
-    </HashRouter>
+    </BrowserRouter>
   );
   /* jshint ignore:end */
 };
