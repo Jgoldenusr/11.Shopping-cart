@@ -6,7 +6,7 @@ Thie page is meant to showcase the React skills learned so far, mainly: routing,
 
 The page is fully responsive and was built using React Bootstrap.
 
-You can test the demo [here.](http://jgoldenusr.github.io/10.Shopping-Cart)
+You can test the demo [here.](https://jgoldenusr.github.io/11.Shopping-cart/)
 
 ## Resources
 
